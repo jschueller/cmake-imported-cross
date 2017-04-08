@@ -7,6 +7,6 @@ mkdir build
 cd build
 cmake ..
 make # ok
-cmake -DCROSS_COMPILING_EMULATOR=/usr/bin/python ..
+cmake -DCMAKE_CROSSCOMPILING_EMULATOR=/usr/bin/python ..
 make VERBOSE=1 # fail
 ```
